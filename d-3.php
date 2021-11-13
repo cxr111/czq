@@ -1,0 +1,22 @@
+<html>
+<meta charset="utf-8">
+<body>
+<?
+	$username=$_POST["username"];
+	$ps=$_POST["ps"];
+	$sex=$_POST["sex"];
+	$fav1=$_POST["fav1"];
+	$fav2=$_POST["fav2"];
+	$fav3=$_POST["fav3"];
+	$fav4=$_POST["fav4"];
+	$addr=$_POST["addr"];
+	$power=$_POST["power"];
+	echo"用户名是:".$username;
+	echo"<br>密码是:".$PS;
+	echo"<br>性别是:".$sex;
+	echo"<br>爱好是:".$fav1.$fav2.$fav3.$fav4;
+	echo"<br>地址:".$addr;
+	echo"<br>功能:".$power;
+?>
+	</body>
+</html>
